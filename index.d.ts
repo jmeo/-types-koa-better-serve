@@ -32,9 +32,6 @@ declare namespace Serve {
     }
 }
 
-
-
-declare function koaBetterServe(root?: string, pathname?: string | Serve.Options): Koa.Middleware;
-declare function koaBetterServe(root?: string, pathname?: string | Serve.Options, options?: Serve.Options): Koa.Middleware;
+declare function koaBetterServe(root: string, pathname?: string | Serve.Options, options?: Serve.Options): Koa.Middleware;
 
 export = koaBetterServe
