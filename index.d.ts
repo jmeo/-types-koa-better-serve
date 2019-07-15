@@ -1,6 +1,9 @@
+// TypeScript Version: 2.2
+
+/// <reference types="node" />
+
 import * as http from 'http'
 import * as Koa from 'koa'
-
 
 declare function koaBetterServe(root?: string, pathname?: string, options?: Serve.Options): Koa.Middleware;
 
