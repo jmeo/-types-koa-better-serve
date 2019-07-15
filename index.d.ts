@@ -14,7 +14,7 @@ declare namespace Serve {
         gzip?: boolean;
         brotli?: boolean;
         format?: boolean;
-        setHeaders?(res: http.ServerResponse, path: string, stats: string);
+        setHeaders?(res: http.ServerResponse, path: string, stats: string): void;
         extensions?: any;
     }
 
