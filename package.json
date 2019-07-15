@@ -1,0 +1,23 @@
+{
+  "name": "@types/koa-better-serve",
+  "version": "1.0.0",
+  "description": "TypeScript definitions for koa-better-serve",
+  "main": "",
+  "scripts": {},
+  "keywords": [
+    "koa-better-serve"
+  ],
+  "dependencies": {
+    "@types/node": "*",
+    "@types/koa": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmeo/-types-koa-better-serve.git"
+  },
+  "author": "jmeo",
+  "license": "MIT",
+  "files": [
+    "index.d.ts"
+  ]
+}
